@@ -19,7 +19,6 @@ resource "aws_instance" "lab1" {
 
   root_block_device {
     delete_on_termination = true
-    iops                  = 100
     volume_size           = 10
     volume_type           = "gp2"
   }
