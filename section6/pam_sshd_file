@@ -1,0 +1,3 @@
+# Go ahead and this line right after line 18 (session include postlogin) in /etc/pam.d/sshd
+
+session    optional     pam_exec.so debug /usr/local/bin/test_pam.sh # execute command once login session is created
