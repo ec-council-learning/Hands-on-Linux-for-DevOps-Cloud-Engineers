@@ -58,7 +58,7 @@ echo "
 - Users...............: Currently ${active_user_count} User(s) logged on
 ===========================================================================
 - Current user........: ${user}
-- CPU usage...........: ${load1}, ${load5}, ${load15} (1, 5, 15 min)
+- Load................: ${load1}, ${load5}, ${load15} (1, 5, 15 min)
 - Memory used.........: ${memory1} KB / ${memory2} KB
 - Swap in use.........: ${swap_in_use} KB
 - Processes...........: ${all_processes} running
